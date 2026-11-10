@@ -1,0 +1,4 @@
+marketplace.schema.json and plugin.schema.json
+Source: https://github.com/cursor/plugins
+Commit: de8ee15dd1194627d21eb5fcd41cb1873208dabb
+Copied 2026-11-10 for offline validation of this marketplace.

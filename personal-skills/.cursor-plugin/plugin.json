@@ -1,0 +1,24 @@
+{
+  "name": "personal-skills",
+  "displayName": "Personal skills",
+  "version": "0.1.0",
+  "description": "Skills copied from this machine's ~/.cursor/skills and ~/.agents/skills. Copies that already match Matt Pocock's skills stay in mattpocock-skills.",
+  "author": {
+    "name": "Julian le Roux"
+  },
+  "homepage": "https://github.com/julerex/julebox",
+  "repository": "https://github.com/julerex/julebox",
+  "license": "SEE-PROVENANCE",
+  "keywords": [
+    "personal",
+    "skills",
+    "cursor"
+  ],
+  "category": "developer-tools",
+  "minClientVersions": {
+    "claude": "never",
+    "grokbot": "never",
+    "sand": "never"
+  },
+  "skills": "./skills/"
+}

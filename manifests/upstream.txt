@@ -1,0 +1,4 @@
+url=https://github.com/mattpocock/skills
+commit=4ae2317ddb22b046e26455e4f9c9b3aaaf62212d
+version=1.3.2
+layout=skills flattened from category directories to skills/<name>
