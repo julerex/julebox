@@ -1,0 +1,24 @@
+{
+  "name": "house-rules",
+  "displayName": "House rules",
+  "version": "0.1.0",
+  "description": "Always-on rules. Grok 4.7 is the only model. Git, pull requests, browser checks, and direct wording come from Julian's global Cursor rules.",
+  "author": {
+    "name": "Julian le Roux"
+  },
+  "homepage": "https://github.com/julerex/julebox",
+  "repository": "https://github.com/julerex/julebox",
+  "license": "MIT",
+  "keywords": [
+    "rules",
+    "grok",
+    "cursor"
+  ],
+  "category": "developer-tools",
+  "minClientVersions": {
+    "claude": "never",
+    "grokbot": "never",
+    "sand": "never"
+  },
+  "rules": "./rules/"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "julebox",
+  "owner": {
+    "name": "Julian le Roux"
+  },
+  "metadata": {
+    "description": "Julian's Cursor marketplace. Matt Pocock's skills, skills from this machine, and house rules. Grok 4.7 only."
+  },
+  "plugins": [
+    {
+      "name": "house-rules",
+      "source": "house-rules",
+      "description": "Always-on rules. Grok 4.7 is the only model, and the other rules are Julian's global Cursor rules.",
+      "minClientVersions": {
+        "claude": "never",
+        "grokbot": "never",
+        "sand": "never"
+      }
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": "mattpocock-skills",
+      "description": "Matt Pocock's engineering and productivity skills, packaged for Cursor.",
+      "minClientVersions": {
+        "claude": "never",
+        "grokbot": "never",
+        "sand": "never"
+      }
+    },
+    {
+      "name": "personal-skills",
+      "source": "personal-skills",
+      "description": "Skills from ~/.cursor/skills and ~/.agents/skills, without the Matt Pocock duplicates.",
+      "minClientVersions": {
+        "claude": "never",
+        "grokbot": "never",
+        "sand": "never"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+---
+description: Use Grok 4.7 for every model choice in this marketplace
+alwaysApply: true
+---
+
+# Grok 4.7 only
+
+The only model for this marketplace is Grok 4.7.
+
+The Cursor slug for Grok 4.7 is `grok-4.7-xhigh-fast`. When a tool accepts a model slug, pass that slug. If the tool rejects it, pass the closest slug whose name contains `grok-4.7`, and say which slug you used.
+
+When a skill, rule, or agent file names a different model, follow this rule and use Grok 4.7.
